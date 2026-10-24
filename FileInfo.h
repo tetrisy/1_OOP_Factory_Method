@@ -13,9 +13,7 @@ private:
 
 public:
 	FileInfo(const std::string& fileName, std::uint64_t fileSize, const std::string& creationTime, const std::string& lastModified, const std::string& accessType)
-		: m_fileName(fileName), m_fileSize(fileSize), m_creationTime(creationTime), m_lastModified(lastModified), m_accessType(accessType) {
-
-	};
+		: m_fileName(fileName), m_fileSize(fileSize), m_creationTime(creationTime), m_lastModified(lastModified), m_accessType(accessType) {}
 
 	const std::string& getFileName() const {
 		return m_fileName;
