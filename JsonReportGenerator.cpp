@@ -24,4 +24,4 @@ void JsonReportGenerator::generateReport(const std::vector<FileInfo>& filesInfo,
 	if (outputStream.fail()) {
 		throw std::runtime_error("Error, there was a problem with output stream.");
 	}
-};
+}
