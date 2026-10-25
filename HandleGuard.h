@@ -6,7 +6,7 @@ class FindHandleGuard {
 private:
 	HANDLE m_handle;
 public:
-	explicit FindHandleGuard(HANDLE handle) : m_handle(handle) {};
+	explicit FindHandleGuard(HANDLE handle) : m_handle(handle) {}
 	FindHandleGuard(const FindHandleGuard&) = delete;
 	FindHandleGuard& operator=(const FindHandleGuard&) = delete;
 
