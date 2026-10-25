@@ -62,5 +62,8 @@
     <ClInclude Include="ReportGeneratorFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HandleGuard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
