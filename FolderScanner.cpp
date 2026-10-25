@@ -19,7 +19,7 @@ std::string FolderScanner::convertTimeToString(const FILETIME& fileTime) const {
 		throw std::runtime_error("Error while converting to time string.");
 	}
 
-	std::string time = std::format("{}/{}/{} {}:{:02}", systemTime.wDay, systemTime.wMonth, systemTime.wYear, systemTime.wHour, systemTime.wMinute);
+	std::string time = std::format("{:02}/{:02}/{} {:02}:{:02}", systemTime.wDay, systemTime.wMonth, systemTime.wYear, systemTime.wHour, systemTime.wMinute);
 
 	return time;
 }
